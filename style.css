@@ -130,9 +130,9 @@ nav {
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 30px;
-    flex: 1;
-    justify-content: center;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: 40px;
 }
 
 .nav-cta {
@@ -195,7 +195,7 @@ nav {
 }
 
 .logo-item img {
-    height: 34px;
+    height: 48px;
     transition: 0.3s;
     filter: grayscale(1);
 }
@@ -600,13 +600,14 @@ nav {
 }
 
 .indicator-star {
-    width: 14px;
-    height: 14px;
+    width: 20px;
+    height: 20px;
     background-image: url('data:image/svg+xml,<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.00002 0L8.60835 5.39167L14 7.00001L8.60835 8.60834L7.00002 14L5.39168 8.60834L0 7.00001L5.39168 5.39167L7.00002 0Z" fill="white"/></svg>');
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
     transition: 0.3s;
+    transform: rotate(45deg);
 }
 
 .indicator-star.active {
